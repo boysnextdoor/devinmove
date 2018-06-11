@@ -13,43 +13,8 @@
 
 @font-face {
   font-family: 'Noto Sans CJK KR';
-  src: local('Noto Sans CJK KR'), local('NotoSansCJKKR'), local('노토 산스 CJK KR'), local('노토산스CJKKR'), url('//hangul.online/static/fonts/noto-sans-cjk-kr/Noto-Sans-CJK-KR-Thin.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Noto Sans CJK KR';
-  src: local('Noto Sans CJK KR'), local('NotoSansCJKKR'), local('노토 산스 CJK KR'), local('노토산스CJKKR'), url('//hangul.online/static/fonts/noto-sans-cjk-kr/Noto-Sans-CJK-KR-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Noto Sans CJK KR';
   src: local('Noto Sans CJK KR'), local('NotoSansCJKKR'), local('노토 산스 CJK KR'), local('노토산스CJKKR'), url('//hangul.online/static/fonts/noto-sans-cjk-kr/Noto-Sans-CJK-KR-Regular.otf') format('opentype');
   font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Noto Sans CJK KR';
-  src: local('Noto Sans CJK KR'), local('NotoSansCJKKR'), local('노토 산스 CJK KR'), local('노토산스CJKKR'), url('//hangul.online/static/fonts/noto-sans-cjk-kr/Noto-Sans-CJK-KR-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Noto Sans CJK KR';
-  src: local('Noto Sans CJK KR'), local('NotoSansCJKKR'), local('노토 산스 CJK KR'), local('노토산스CJKKR'), url('//hangul.online/static/fonts/noto-sans-cjk-kr/Noto-Sans-CJK-KR-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Noto Sans CJK KR';
-  src: local('Noto Sans CJK KR'), local('NotoSansCJKKR'), local('노토 산스 CJK KR'), local('노토산스CJKKR'), url('//hangul.online/static/fonts/noto-sans-cjk-kr/Noto-Sans-CJK-KR-Black.otf') format('opentype');
-  font-weight: 900;
   font-style: normal;
 }
 
@@ -165,7 +130,7 @@ a:hover {
 }
 
 .bl-icon {
-	font-family: 'icomoon';
+	font-family: 'Noto Sans CJK KR', 'icomoon';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
