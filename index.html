@@ -19,12 +19,62 @@
     <meta name="theme-color" content="#867161">
     
     <title>DEV IN MOVE</title>
-
-    <link rel="stylesheet" href="./style.css">
+    
+    <!-- https://github.com/codrops/FullscreenLayoutPageTransitions -->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
   </head>
   <body>
-    Hello, SNU!
-
-    <script src="./app.js"></script>
+    <div class="container">	
+      <div id="bl-main" class="bl-main">
+        <section>
+          <div class="bl-box">
+            <h2 class="bl-icon bl-icon-about">About</h2>
+          </div>
+          <div class="bl-content">
+            <h2>데브인 무브</h2>
+            <p>설명</p>
+          </div>
+          <span class="bl-icon bl-icon-close"></span>
+        </section>
+        <section>
+          <div class="bl-box">
+            <h2 class="bl-icon bl-icon-agenda">Agenda</h2>
+          </div>
+          <div class="bl-content">
+            <h2>행사 식순</h2>
+            <p>설명</p>
+          </div>
+          <span class="bl-icon bl-icon-close"></span>
+        </section>
+        <section>
+          <div class="bl-box">
+            <h2 class="bl-icon bl-icon-credits">Credits</h2>
+          </div>
+          <div class="bl-content">
+            <h2>후원 및 지원</h2>
+            <article>
+              <h3>비주얼 캠프</h3>
+              <p>설명</p>
+            </article>
+          </div>
+          <span class="bl-icon bl-icon-close"></span>
+        </section>
+        <section>
+          <div class="bl-box">
+            <h2 class="bl-icon bl-icon-contact">Contact</h2>
+          </div>
+          <div class="bl-content">
+            <h2>추가 문의</h2>
+            <p>설명</p>
+          </div>
+          <span class="bl-icon bl-icon-close"></span>
+        </section>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/boxlayout.js"></script>
+    <script>$(function () { Boxlayout.init() })
+    </script>
   </body>
 </html>
