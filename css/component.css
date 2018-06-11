@@ -68,25 +68,29 @@ a:hover {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: #F06060;
+	background: #D7BCA2;
+	color: #222;
 }
 
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: calc(50% + 0.2rem);
-	background: #FA987D;
+	background: #88694B;
+	color: #EEE;
 }
 
 .bl-main > section:nth-child(3) {
 	top: calc(50% + 0.2rem);
 	left: 0;
-	background: #72CCA7;
+	background: #88694B;
+	color: #EEE;
 }
 
 .bl-main > section:nth-child(4) {
 	top: calc(50% + 0.2rem);
 	left: calc(50% + 0.2rem);
-	background: #10A296;
+	background: #D7BCA2;
+	color: #222;
 }
 
 .bl-box {
@@ -166,8 +170,8 @@ a:hover {
 
 .bl-main > section .bl-icon-close {
 	position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 35px;
+	right: 35px;
 	cursor: pointer;
 	z-index: 100;
 	opacity: 0;
@@ -373,16 +377,16 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section:first-child.bl-expand {
-	background: #EE4444;
+	background: #D7BCA2;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
+	background: #88694B;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #4BBE8E;
+	background: #88694B;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #0D8278;
+	background: #D7BCA2;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
