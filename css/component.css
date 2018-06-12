@@ -564,6 +564,10 @@ section.bl-expand .bl-icon-close {
 		padding-right: 30px;
 	}
 
+	.bl-box .cover {
+		font-size: 100%;
+	}
+
 	.bl-expand .bl-box {
 		height: 130px;
 	}
