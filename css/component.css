@@ -45,6 +45,10 @@ a:not(.image), span.link {
 	border-bottom: 1px solid;
 }
 
+a:not(.image):first-child, span.link:first-child {
+	margin-left: 0;
+}
+
 a:not(.image):hover, span.link:hover {
 	opacity: 0.5;
 	transition: opacity 0.3s;
@@ -53,6 +57,10 @@ a:not(.image):hover, span.link:hover {
 a.email {
 	text-transform: initial;
 	word-break: break-all;
+}
+
+p.right {
+	text-align: right;
 }
 
 .logo {
@@ -76,6 +84,10 @@ a.email {
 
 .item:first-of-type {
 	margin-top: 30px;
+}
+
+.item:last-of-type {
+	margin-bottom: 30px;
 }
 
 .item .time {
