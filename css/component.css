@@ -73,9 +73,10 @@ p.right {
 }
 
 .item {
+	
 	width: 100%;
 	font-size: 1.7em;
-	display: flex;
+	display: block;
 	padding: 10px 30px 10px 30px;
 	background: #FFF8;
 	border-radius: 10px;
@@ -103,6 +104,10 @@ p.right {
 	margin-right: 0.33em;
 	border-bottom: dotted 1px;
 	border-color: inherit;
+}
+
+.item .time, .item .content {
+	width: 100%;
 }
 
 #alert {
@@ -590,13 +595,5 @@ section.bl-expand .bl-icon-close {
 
 	.bl-main > section .bl-icon-close {
 		position: absolute;
-	}
-
-	.item {
-		display: block;
-	}
-
-	.item .time, .item .content {
-		width: 100%;
 	}
 }
